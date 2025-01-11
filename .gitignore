@@ -1,3 +1,11 @@
+# ignore the virtual environment
 \env
-Purchase History.png
-Data.csv
+
+# ignore all PNGs
+*.png
+
+# the data is just 3 columns: Date-Amount-Price
+# Date - Day I purchased fuel
+# Amount - The amount I got for $50 CAD
+# Price - Always going to be $50
+*.csv
