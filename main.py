@@ -1,3 +1,5 @@
+# main.py
+
 import tkinter as tk
 from Components.ui import main_window
 

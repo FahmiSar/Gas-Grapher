@@ -1,3 +1,5 @@
+# constants.py
+
 # Files 
 DATA_FILE = "Data.csv"
 GRAPH_NAME = "Purchase History.png"
