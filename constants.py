@@ -2,8 +2,7 @@
 # this will also include constants that I may need
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
-import csv
-import os
+import csv, os, time
 
 # GUI framework
 import tkinter as tk
@@ -17,6 +16,11 @@ GRAPH_NAME = "Purchase History.png"
 # Constants
 BUTTON_WIDTH = 20
 VERTICAL_PADDING = 10
+TEXTBOX_WIDTH = 40
+
+
+# Global Variables
+entry_widgets = []
 
 
 # Flags
