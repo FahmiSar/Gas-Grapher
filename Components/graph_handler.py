@@ -9,7 +9,6 @@ from Components.constants import GRAPH_NAME
 # Flags
 graph_shown = False
 
-
 # pyplot figure close event
 def on_close(event):
     global graph_shown
